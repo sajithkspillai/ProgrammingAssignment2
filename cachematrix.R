@@ -45,3 +45,5 @@ cacheSolve <- function(x, ...) {
   #Returns the inverse of the matrix 'x' when set is used.
   y
 }
+=======
+>>>>>>> 57b3881ef6dae55ea04f94cc070f1cc9250d297d
