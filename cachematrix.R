@@ -10,7 +10,7 @@ makeCacheMatrix <- function(x = matrix()) {
   if(class(x)!="matrix"){stop("not a matrix")}        #check if matrix
   if(nrow(x)!=ncol(x)){stop("not square matrix")}     #check if square
   
-  y<-NULL                                            #inverse is set to null
+  y<-NULL                                             #inverse is set to null
   
   
   #variable$setMatrix(matrix) eg: l$set()x will clear the earlier value of matrix and assign new value.
@@ -45,5 +45,3 @@ cacheSolve <- function(x, ...) {
   #Returns the inverse of the matrix 'x' when set is used.
   y
 }
-=======
->>>>>>> 57b3881ef6dae55ea04f94cc070f1cc9250d297d
